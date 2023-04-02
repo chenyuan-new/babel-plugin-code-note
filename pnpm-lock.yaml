@@ -9,6 +9,7 @@ specifiers:
   '@babel/template': ^7.20.7
   '@babel/traverse': ^7.21.2
   '@babel/types': ^7.21.2
+  doctrine: ^3.0.0
   fs-extra: ^11.1.1
 
 dependencies:
@@ -20,6 +21,7 @@ dependencies:
   '@babel/template': 7.20.7
   '@babel/traverse': 7.21.2
   '@babel/types': 7.21.2
+  doctrine: 3.0.0
   fs-extra: 11.1.1
 
 packages:
@@ -336,6 +338,13 @@ packages:
       ms: 2.1.2
     dev: false
 
+  /doctrine/3.0.0:
+    resolution: {integrity: sha512-yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==}
+    engines: {node: '>=6.0.0'}
+    dependencies:
+      esutils: 2.0.3
+    dev: false
+
   /electron-to-chromium/1.4.328:
     resolution: {integrity: sha512-DE9tTy2PNmy1v55AZAO542ui+MLC2cvINMK4P2LXGsJdput/ThVG9t+QGecPuAZZSgC8XoI+Jh9M1OG9IoNSCw==}
     dev: false
@@ -348,6 +357,11 @@ packages:
   /escape-string-regexp/1.0.5:
     resolution: {integrity: sha512-vbRorB5FUQWvla16U8R/qgaFIya2qGzwDrNmCZuYKrbdSUMG6I1ZCGQRefkRVhuOkIGVne7BQ35DSfo1qvJqFg==}
     engines: {node: '>=0.8.0'}
+    dev: false
+
+  /esutils/2.0.3:
+    resolution: {integrity: sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==}
+    engines: {node: '>=0.10.0'}
     dev: false
 
   /fs-extra/11.1.1:
